@@ -3,113 +3,126 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@inproceedings{sc25posters-wenyi,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+  abbr={SC Posters'25},
+  author = {Wang, Wenyi and Gonthier, Maxime and Lai, Haibin and Nookala, Poornima and Pan, Haochen and Foster, Ian and Raicu, Ioan and Chard, Kyle},
+  title = {Exploring Fine-Grained Parallelism in Data-Flow Runtime Systems on Many-Core Systems},
+  year = {2025},
+  publisher = {Association for Computing Machinery},
+  address = {St. Louis, MO, USA},
+  url = {https://sc25.supercomputing.org/proceedings/posters/poster_pages/post147.html},
+  abstract = {High synchronization overhead in frameworks like GNU OpenMP impedes fine-grained task parallelism on many-core architectures. We introduce three advances to GNU OpenMP: a lock-less concurrent queue (XQueue), a scalable distributed tree barrier, and two NUMA-aware, lock-less load-balancing strategies. Evaluated with Barcelona OpenMP Task Suite (BOTS) benchmarks, our XQueue and tree barrier improve performance by up to 1522.8× over the original GNU OpenMP. The load-balancing strategies provide an additional performance improvement of up to 4×. We further apply these techniques to the TaskFlow runtime, demonstrating performance and scalability gains in selected applications while also analyzing the inherent limitations of the lock-less approach on x86 architectures.},
+  booktitle = {Proceedings of the SC '25 Research Posters of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+  keywords = {parallel computing, high-performance computing, supercomputer},
   selected={true},
-  inspirehep_id = {3255}
+  poster={sc25posters-wenyi.pdf},
+  pdf={sc25posters-sum-wenyi.pdf}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@inproceedings{10.1145/3731599.3767499,
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  abbr={SC Workshops'25},
+  author = {Fell, Alexander and Wang, Yuqing and Su, Tianshuo and Nourian, Marziyeh and Wang, Wenyi and Monsalve-Diaz, Jose M. and Rajasukumar, Andronicus Samsundar and Su, Jiya and Xu, Ruiqi and Khandelwal, Rajat and Zhang, Tianchi and Gleich, David and Li, Yanjing and Hoffmann, Hank and Chien, Andrew A.},
+  title = {KVMSR+UDWeave: Extreme-Scaling with Fine-grained Parallelism on the UpDown Graph Supercomputer},
+  year = {2025},
+  isbn = {9798400718717},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3731599.3767499},
+  abstract = {Programming irregular graph applications is challenging on today’s scalable supercomputers. We describe a novel programming model, KVMSR+UDWeave, that supports extreme scaling by exposing fine-grained parallelism. By enabling the expression of maximum parallelism, it opens the door for extreme scaling, even on both small and large graph problems. KVMSR+UDWeave cleanly separates the three key dimensions of parallel programming: parallelism, computation binding, and data placement. This decomposition reduces effort to achieve scalable, high-performance for graph algorithms on real-world, highly skewed graphs. Key features of the UpDown supercomputer (computation location naming and shared global address space) enable decomposition and scalable, high performance. In the IARPA AGILE program, we built numerous graph benchmarks and workflows, and use them to illustrate the programming model. Simulation results for UpDown show excellent strong-scaling to million-fold hardware parallelism and high absolute performance. Results suggest KVMSR+UDWeave enables reduced programming effort for scaling the most demanding irregular applications.},
+  booktitle = {Proceedings of the SC '25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+  pages = {1243–1262},
+  pdf={updown-sc25.pdf},
+  numpages = {20},
+  location = {St. Louis, MO, USA},
+  keywords = {parallel computing, high-performance computing, graph computing, supercomputer, mapreduce},
+  series = {SC Workshops '25},
+  selected={true},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+
+@inproceedings{11078401,
+bibtex_show={true},
+abbr={IPDPS'25},
+author = {Wang, Wenyi and Gonthier, Maxime and Nookala, Poornima and Pan, Haochen and Foster, Ian and Raicu, Ioan and Chard, Kyle},
+booktitle = { 2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS) },
+title = {Optimizing Fine-Grained Parallelism Through Dynamic Load Balancing on Multi-Socket Many-Core Systems},
+year = {2025},
+pages = {81-93},
+abstract = {Achieving efficient task parallelism on many-core architectures is an important challenge. The widely used GNU OpenMP implementation of the popular OpenMP parallel programming model incurs high overhead for fine-grained, shortrunning tasks due to time spent on runtime synchronization. In this work, we introduce and analyze three key advances that collectively achieve significant performance gains. First, we introduce XQueue, a lock-less concurrent queue implementation to replace GNU's priority task queue and remove the global task lock. Second, we develop a scalable, efficient, and hybrid lock-free/lock-less distributed tree barrier to address the high hardware synchronization overhead from GNU's centralized barrier. Third, we develop two lock-less and NUMA-aware load balancing strategies. We evaluate our implementation using Barcelona OpenMP Task Suite (BOTS) benchmarks. We show that the use of XQueue and the distributed tree barrier can improve performance by up to 1522.8× compared to the original GNU OpenMP. We further show that lock-less load balancing can improve performance by up to 4×  compared to GNU OpenMP using XQueue.},
+keywords = {Distributed processing;Runtime;Parallel programming;Parallel processing;Performance gain;Load management;Dynamic scheduling;Hardware;Dynamic programming;Synchronization},
+url = {https://doi.ieeecomputersociety.org/10.1109/IPDPS64566.2025.00016},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =Jun,
+pdf={ipdps25-wwang.pdf},
+selected={true},
 }
+
+
+
+
+
+@article{rajasukumar2024updown,
+  bibtex_show={true},
+  abbr={arXiv'24},
+  title={UpDown: Programmable fine-grained Events for Scalable Performance on Irregular Applications},
+  author={Rajasukumar, Andronicus and Su, Jiya and Su, Tianshuo and Nourian, Marziyeh and Diaz, Jose M Monsalve and Zhang, Tianchi and Ding, Jianru and Wang, Wenyi and Zhang, Ziyi and Jeje, Moubarak and others},
+  abstract={Applications with irregular data structures, data-dependent control flows and fine-grained data transfers (e.g., real-world graph computations) perform poorly on cache-based systems. We propose the UpDown accelerator that supports fine-grained execution with novel architecture mechanisms - lightweight threading, event-driven scheduling, efficient ultra-short threads, and split-transaction DRAM access with software-controlled synchronization. These hardware primitives support software programmable events, enabling high performance on diverse data structures and algorithms. UpDown also supports scalable performance; hardware replication enables programs to scale up performance. Evaluation results show UpDown's flexibility and scalability enable it to outperform CPUs on graph mining and analytics computations by up to 116-195x geomean speedup and more than 4x speedup over prior accelerators. We show that UpDown generates high memory parallelism (~4.6x over CPU) required for memory intensive graph computations. We present measurements that attribute the performance of UpDown (23x architectural advantage) to its individual architectural mechanisms. Finally, we also analyze the area and power cost of UpDown's mechanisms for software programmability.},
+  journal={arXiv preprint arXiv:2407.20773},
+  arxiv={2407.20773},
+  pdf={updown24-andronicus.pdf},
+  year={2024},
+  selected={true},
+}
+
+@inproceedings{10.1145/3632366.3632396,
+  bibtex_show={true},
+  abbr={BDCAT'23},
+  author = {Hudson, Nathaniel C and Pauloski, J. Gregory and Baughman, Matt and Kamatar, Alok and Sakarvadia, Mansi and Ward, Logan and Chard, Ryan and Bauer, Andr\'{e} and Levental, Maksim and Wang, Wenyi and Engler, Will and Price Skelly, Owen and Blaiszik, Ben and Stevens, Rick and Chard, Kyle and Foster, Ian},
+  title = {Trillion Parameter AI Serving Infrastructure for Scientific Discovery: A Survey and Vision},
+  year = {2024},
+  isbn = {9798400704734},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3632366.3632396},
+  abstract = {Deep learning methods are transforming research, enabling new techniques, and ultimately leading to new discoveries. As the demand for more capable AI models continues to grow, we are now entering an era of Trillion Parameter Models (TPM), or models with more than a trillion parameters---such as Huawei's PanGu-Σ. We describe a vision for the ecosystem of TPM users and providers that caters to the specific needs of the scientific community. We then outline the significant technical challenges and open problems in system design for serving TPMs to enable scientific research and discovery. Specifically, we describe the requirements of a comprehensive software stack and interfaces to support the diverse and flexible requirements of researchers.},
+  booktitle = {Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies},
+  articleno = {15},
+  numpages = {10},
+  keywords = {artificial intelligence, grid computing, deep learning applications, systems design, survey},
+  location = {Taormina (Messina), Italy},
+  pdf={tpm-bdcat23.pdf},
+  series = {BDCAT '23},
+  selected={true},
+}
+
+@inproceedings{wang2023efficiently,
+  bibtex_show={true},
+  abbr={LCPC'23},
+  title={Efficiently exploiting irregular parallelism using keys at scale},
+  author={Wang, Yuqing and Rajasukumar, Andronicus and Su, Tianshuo and Nourian, Marziyeh and Monsalve Diaz, Jose M and Pervaiz, Ahsan and Ding, Jerry and Colley, Charles and Wang, Wenyi and Li, Yanjing and others},
+  booktitle={International Workshop on Languages and Compilers for Parallel Computing},
+  abstract={Motivated by the challenges of programming irregular applications for machines with million-fold parallelism, we present a key-based programming model, called key-value map-shuffle-reduce (KVMSR), that enables programmers to optimize fine-grained parallel programs. KVMSR expresses parallelism on a global address space and features modular interfaces to flexibly bind computation to available compute resources. We define the KVMSR model and illustrate it with three programs, convolution filter, PageRank and BFS, to show its ability to separate computation expression from binding to computation location for high performance. On a 8,192-way parallel compute system, KVMSR modular computation location control achieves up to 2,317×  performance with static approaches and an increase of 549× to 2,715× speedup with dynamic approaches for computation location binding.},
+  pages={78--95},
+  year={2023},
+  pdf={lcpc23-yuqing.pdf},
+  organization={Springer},
+  selected={true},
+}
+
+
+@inproceedings{ma2021paths,
+  bibtex_show={true},
+  abbr={SC'21},
+  title={Paths to openmp in the kernel},
+  author={Ma, Jiacheng and Wang, Wenyi and Nelson, Aaron and Cuevas, Michael and Homerding, Brian and Liu, Conghao and Huang, Zhen and Campanoni, Simone and Hale, Kyle and Dinda, Peter},
+  abstract={OpenMP implementations make increasing demands on the kernel. We take the next step and consider bringing OpenMP into the kernel. Our vision is that the entire OpenMP application, run-time system, and a kernel framework is interwoven to become the kernel, allowing the OpenMP implementation to take full advantage of the hardware in a custom manner. We compare and contrast three approaches to achieving this goal. The first, runtime in kernel (RTK), ports the OpenMP runtime to the kernel, allowing any kernel code to use OpenMP pragmas. The second, process in kernel (PIK) adds a specialized process abstraction for running user-level OpenMP code within the kernel. The third, custom compilation for kernel (CCK), compiles OpenMP into a form that leverages the kernel framework without any intermediaries. We describe the design and implementation of these approaches, and evaluate them using NAS and other benchmarks.},
+  booktitle={Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+  pages={1--17},
+  year={2021},
+  pdf={sc21-jma.pdf},
+  selected={true},
+}
+

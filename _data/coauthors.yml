@@ -1,34 +1,27 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"foster":
+  - firstname: ["Ian"]
+    url: https://cs.uchicago.edu/people/ian-foster/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"chard":
+  - firstname: ["Kyle"]
+    url: https://cs.uchicago.edu/people/kyle-chard/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"lai":
+  - firstname: ["Haibin"]
+    url: https://haibinlai.github.io/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"hudson":
+  - firstname: ["Nathaniel", "Nathaniel C"]
+    url: https://nathaniel-hudson.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"ma":
+  - firstname: ["Jiacheng"]
+    url: https://dslab.epfl.ch/people/jiacma/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"pauloski":
+  - firstname: ["J. Gregory"]
+    url: https://gregpauloski.com/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"baughman":
+  - firstname: ["Matt"]
+    url: https://mattebaughman.com/
