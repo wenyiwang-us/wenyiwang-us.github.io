@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-01-14'
+  last_updated: '2026-01-26'
 papers:
   NX590_AAAAAJ:2osOgNQ5qMEC:
     citations: 1
     title: 'Kvmsr+ udweave: Extreme-scaling with fine-grained parallelism on the updown graph supercomputer'
     year: '2025'
   NX590_AAAAAJ:9yKSN-GCB0IC:
-    citations: 1
+    citations: 2
     title: Optimizing Fine-Grained Parallelism Through Dynamic Load Balancing on Multi-Socket Many-Core Systems
     year: '2025'
   NX590_AAAAAJ:UeHWp8X0CEIC:
