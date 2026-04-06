@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-04'
+  last_updated: '2026-04-06'
 papers:
   NX590_AAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -22,7 +22,7 @@ papers:
     title: 'Updown: Programmable fine-grained events for scalable performance on irregular applications'
     year: '2024'
   NX590_AAAAAJ:u-x6o8ySG0sC:
-    citations: 14
+    citations: 15
     title: 'Trillion parameter ai serving infrastructure for scientific discovery: A survey and vision'
     year: '2023'
   NX590_AAAAAJ:u5HHmVD_uO8C:
