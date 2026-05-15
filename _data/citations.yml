@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-05-15'
 papers:
   NX590_AAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -9,6 +9,10 @@ papers:
     citations: 2
     title: Optimizing Fine-Grained Parallelism Through Dynamic Load Balancing on Multi-Socket Many-Core Systems
     year: '2025'
+  NX590_AAAAAJ:IjCSPb-OGe4C:
+    citations: 3
+    title: 'Updown: A supercomputer co-designed for scalable graph processing'
+    year: '2026'
   NX590_AAAAAJ:UeHWp8X0CEIC:
     citations: 0
     title: Efficiently Exploiting Irregular Parallelism Using Keys at Scale
