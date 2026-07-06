@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-05-15'
+  last_updated: '2026-07-06'
 papers:
   NX590_AAAAAJ:2osOgNQ5qMEC:
-    citations: 2
+    citations: 3
     title: 'Kvmsr+ udweave: Extreme-scaling with fine-grained parallelism on the updown graph supercomputer'
     year: '2025'
   NX590_AAAAAJ:9yKSN-GCB0IC:
@@ -10,7 +10,7 @@ papers:
     title: Optimizing Fine-Grained Parallelism Through Dynamic Load Balancing on Multi-Socket Many-Core Systems
     year: '2025'
   NX590_AAAAAJ:IjCSPb-OGe4C:
-    citations: 3
+    citations: 4
     title: 'Updown: A supercomputer co-designed for scalable graph processing'
     year: '2026'
   NX590_AAAAAJ:UeHWp8X0CEIC:
@@ -30,6 +30,6 @@ papers:
     title: 'Trillion parameter ai serving infrastructure for scientific discovery: A survey and vision'
     year: '2023'
   NX590_AAAAAJ:u5HHmVD_uO8C:
-    citations: 4
+    citations: 5
     title: Efficiently exploiting irregular parallelism using keys at scale
     year: '2023'
