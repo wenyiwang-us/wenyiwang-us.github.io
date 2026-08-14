@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-06'
+  last_updated: '2026-08-14'
 papers:
   NX590_AAAAAJ:2osOgNQ5qMEC:
     citations: 3
@@ -13,10 +13,6 @@ papers:
     citations: 4
     title: 'Updown: A supercomputer co-designed for scalable graph processing'
     year: '2026'
-  NX590_AAAAAJ:UeHWp8X0CEIC:
-    citations: 0
-    title: Efficiently Exploiting Irregular Parallelism Using Keys at Scale
-    year: '2025'
   NX590_AAAAAJ:d1gkVwhDpl0C:
     citations: 7
     title: Paths to openmp in the kernel
@@ -27,7 +23,7 @@ papers:
     year: '2024'
   NX590_AAAAAJ:u-x6o8ySG0sC:
     citations: 15
-    title: 'Trillion parameter ai serving infrastructure for scientific discovery: A survey and vision'
+    title: 'Trillion parameter AI serving infrastructure for scientific discovery: a survey and vision'
     year: '2023'
   NX590_AAAAAJ:u5HHmVD_uO8C:
     citations: 5
